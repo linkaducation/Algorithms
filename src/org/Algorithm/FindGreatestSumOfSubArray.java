@@ -26,7 +26,7 @@ public class FindGreatestSumOfSubArray {
 
     public static void main(String[] args) {
         FindGreatestSumOfSubArray fgss = new FindGreatestSumOfSubArray();
-        int sum = fgss.FindGreatestSumOfSubArray(new int[]{-100, 2, 2, 0, 0, 0, 3, 3, 1});
+        int sum = fgss.FindGreatestSumOfSubArray(new int[]{3, 1});
         System.out.println(sum);
     }
 }
