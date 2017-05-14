@@ -1,5 +1,8 @@
 package org.Algorithm;
 
+import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
+
 /**
  * Created by Ellen on 2017/5/12.
  * 在数组中的两个数字，如果前面一个数字大于后面的数字，
@@ -9,7 +12,6 @@ package org.Algorithm;
  */
 public class InversePairs {
     int count;
-
     public int InversePairs(int[] array) {
         count = 0;
         if (array != null) {
@@ -18,7 +20,6 @@ public class InversePairs {
         }
         return count % 1000000007;
     }
-
     private void mergeSortUp2Down(int[] array, int start, int end) {
         if (start >= end) {
             return;
@@ -60,5 +61,6 @@ public class InversePairs {
         InversePairs ip = new InversePairs();
         int i = ip.InversePairs(new int[]{2, 3, 1, 4, 4, 6, 4, 3, 2});
         System.out.println(i);
+
     }
 }
