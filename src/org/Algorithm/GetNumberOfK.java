@@ -5,8 +5,8 @@ package org.Algorithm;
  * 统计一个数字在排序数组中出现的次数。
  */
 public class GetNumberOfK {
-    private static int first = -1;
-    private static int last = -1;
+    private int first = -1;
+    private int last = -1;
 
     public int GetNumberOfK(int[] array, int k) {
         if (array == null || array.length == 0) {
@@ -36,10 +36,11 @@ public class GetNumberOfK {
                 }
             } else {
                 first = 0;
+                return;
             }
         } else if (array[end] > k) {
-            getFirstIndex(array, start, (end + first) / 2, k);
-            getLastIndex(array, (end + first) / 2, end, k);
+            getFirstIndex(array, start, start + (end - start) / 2, k);   //start + (end - start) / 2 为了防止溢出
+            getLastIndex(array, start + (end - start) / 2, end, k);
         } else {
             return;
         }
@@ -59,10 +60,14 @@ public class GetNumberOfK {
                 }
             } else {
                 last = end;
+                return;
             }
         } else if (array[start] < k) {
-            getFirstIndex(array, start, (end + start) / 2, k);
-            getLastIndex(array, (end + start) / 2, end, k);
+            if (start == end - 1) {
+                return;
+            }
+            getFirstIndex(array, start, start + (end - start) / 2, k);
+            getLastIndex(array, start + (end - start) / 2, end, k);
         } else {
             return;
         }
@@ -72,15 +77,15 @@ public class GetNumberOfK {
         GetNumberOfK gn = new GetNumberOfK();
         int i = gn.GetNumberOfK(new int[]{1, 2, 3, 3, 3, 3}, 3);
         System.out.println(gn.last + " " + gn.first + " " + i);
-        int j = gn.GetNumberOfK(new int[]{3, 3, 3, 4, 5, 6}, 3);
+        int j = gn.GetNumberOfK(new int[]{0, 3, 3, 3, 4, 5, 6}, 3);
         System.out.println(gn.last + " " + gn.first + " " + j);
-        int k = gn.GetNumberOfK(new int[]{1, 2, 3, 4, 5, 6}, 3);
+        int k = gn.GetNumberOfK(new int[]{0, 1, 2, 3, 4, 5, 6}, 3);
         System.out.println(gn.last + " " + gn.first + " " + k);
 
         int l = gn.GetNumberOfK(new int[]{}, 3);
         System.out.println(gn.last + " " + gn.first + " " + l);
 
-        int m = gn.GetNumberOfK(new int[]{1, 2, 3, 4, 5, 6}, 8);
+        int m = gn.GetNumberOfK(new int[]{3,3,3,3,4,5}, 3);
         System.out.println(gn.last + " " + gn.first + " " + m);
     }
 }
