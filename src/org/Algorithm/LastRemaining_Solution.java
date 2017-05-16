@@ -1,5 +1,7 @@
 package org.Algorithm;
 
+import java.util.ArrayList;
+
 /**
  * Created by Ellen on 2017/5/15.
  * 每年六一儿童节,牛客都会准备一些小礼物去看望孤儿院的小朋友,今年亦是如此。
@@ -12,6 +14,23 @@ package org.Algorithm;
  */
 public class LastRemaining_Solution {
     public int LastRemaining_Solution(int n, int m) {
+        ArrayList<Integer> list = new ArrayList<>();
+        if (n < 1 || m < 1) return -1;
+        int s = 0;
+        for (int i = 2; i <= n; i++) {
+            s = (s + m) % i;
+            list.add(s);
+        }
+        for (Integer integer : list) {
+            System.out.print(integer + "\t");
+        }
+        return s;
+    }
 
+    public static void main(String[] args) {
+        LastRemaining_Solution ls = new LastRemaining_Solution();
+        int i = ls.LastRemaining_Solution(10, 6);
+        System.out.println();
+        System.out.println(i);
     }
 }
