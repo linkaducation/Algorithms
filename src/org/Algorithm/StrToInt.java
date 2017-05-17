@@ -30,7 +30,8 @@ public class StrToInt {
                 if (i == len) {
                     count += temp;
                 } else {
-                    count += (temp * 10 * (len - i));
+                    temp *= (int) Math.pow(10, len - i);
+                    count += temp;
                 }
             } else {
                 return 0;
@@ -44,7 +45,7 @@ public class StrToInt {
 
     public static void main(String[] args) {
         StrToInt st = new StrToInt();
-        int i = st.StrToInt("-");
+        int i = st.StrToInt("+111");
         System.out.println(i);
     }
 }
