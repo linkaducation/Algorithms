@@ -11,7 +11,6 @@ public class deleteDuplication {
     public ListNode deleteDuplication(ListNode pHead) {
         ListNode first = new ListNode(-1);//设置一个trick
         first.next = pHead;
-
         ListNode p = pHead;
         ListNode last = first;
         while (p != null && p.next != null) {
