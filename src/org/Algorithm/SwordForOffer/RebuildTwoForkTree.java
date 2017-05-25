@@ -1,7 +1,7 @@
 package org.Algorithm.SwordForOffer;
 
 
-import org.Algorithm.HelperClass.myTreeNode;
+import org.Algorithm.SwordForOffer.HelperClass.myTreeNode;
 
 /**
  * Created by Ellen on 2017/5/5.

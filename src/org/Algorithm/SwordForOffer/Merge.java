@@ -1,6 +1,7 @@
 package org.Algorithm.SwordForOffer;
 
-import org.Algorithm.HelperClass.ListNode;
+
+import org.Algorithm.SwordForOffer.HelperClass.ListNode;
 
 /**
  * Created by Ellen on 2017/5/8.

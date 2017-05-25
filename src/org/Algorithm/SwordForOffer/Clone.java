@@ -1,6 +1,7 @@
 package org.Algorithm.SwordForOffer;
 
-import org.Algorithm.HelperClass.RandomListNode;
+
+import org.Algorithm.SwordForOffer.HelperClass.RandomListNode;
 
 /**
  * Created by Ellen on 2017/5/10.

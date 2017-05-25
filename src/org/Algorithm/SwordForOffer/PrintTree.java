@@ -1,8 +1,9 @@
 package org.Algorithm.SwordForOffer;
 
+import org.Algorithm.SwordForOffer.HelperClass.TreeNode;
+
 import java.util.ArrayList;
 
-import org.Algorithm.HelperClass.TreeNode;
 
 /**
  * Created by Ellen on 2017/5/25. 从上到下按层打印二叉树，同一层结点从左至右输出。每一层输出一行

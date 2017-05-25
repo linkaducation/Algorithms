@@ -3,7 +3,8 @@ package org.Algorithm.Chapter9Algorithm;
 import java.util.ArrayList;
 
 /**
- * Created by Ellen on 2017/5/25. 传入一个数组，返回数组的所有子集
+ * Created by Ellen on 2017/5/25.
+ * 传入一个数组，返回数组的所有子集
  */
 public class SubSet {
 	public ArrayList<ArrayList<Integer>> getSubSet(int[] nums) {

@@ -1,8 +1,9 @@
 package org.Algorithm.SwordForOffer;
 
+import org.Algorithm.SwordForOffer.HelperClass.ListNode;
+
 import java.util.ArrayList;
 
-import org.Algorithm.HelperClass.ListNode;
 
 /**
  * Created by Ellen on 2017/5/5.

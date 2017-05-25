@@ -1,9 +1,10 @@
 package org.Algorithm.SwordForOffer;
 
+import org.Algorithm.SwordForOffer.HelperClass.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Stack;
 
-import org.Algorithm.HelperClass.TreeNode;
 
 /**
  * Created by Ellen on 2017/5/25. 请实现一个函数按照之字形打印二叉树，即第一行按照从左到右的顺序打印，第二层按照从右至左的顺序打印，第三行按照从左到右的顺序打印，其他行以此类推。

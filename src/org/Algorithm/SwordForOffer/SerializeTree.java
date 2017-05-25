@@ -1,6 +1,7 @@
 package org.Algorithm.SwordForOffer;
 
-import org.Algorithm.HelperClass.TreeNode;
+
+import org.Algorithm.SwordForOffer.HelperClass.TreeNode;
 
 /**
  * Created by Ellen on 2017/5/25. 请实现两个函数，分别用来序列化和反序列化二叉树
