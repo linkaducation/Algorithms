@@ -33,7 +33,7 @@ public class MediamOfTwoSortArray {
 
 	public static void main(String[] args) {
 		MediamOfTwoSortArray mt = new MediamOfTwoSortArray();
-		int mediam = mt.getNokOfTwoArray(new int[] { 1, 2, 5, 6, 7, 8 }, new int[] { 9, 10 }, 8);
+		int mediam = mt.getNokOfTwoArray(new int[] { 1, 2, 5, 6, 7, 8 }, new int[] { 9, 10 }, 5);
 		System.out.println(mediam);
 	}
 }
