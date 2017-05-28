@@ -48,6 +48,6 @@ public class IsSubtree {
 		root3.left = root4;
 		root5.right = root6;
 		IsSubtree is = new IsSubtree();
-		
+
 	}
 }
