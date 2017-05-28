@@ -19,8 +19,8 @@
       <file leaf-file-name="PreorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/PreorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="341">
+              <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,53 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxPathSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MaxPathSum.java">
+      <file leaf-file-name="BinaryTreePaths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/BinaryTreePaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lowestCommonAncestor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/lowestCommonAncestor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Power.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/Power.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Print.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/Print.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintFromTopToBottom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/PrintFromTopToBottom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="55" />
+            <state relative-caret-position="421">
+              <caret line="43" column="28" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="43" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,21 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsValidBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/IsValidBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="29" column="78" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchRange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/SearchRange.java">
+      <file leaf-file-name="IsIdentical.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/IsIdentical.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="29" />
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flatten.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/Flatten.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreePathSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/BinaryTreePathSum.java">
+      <file leaf-file-name="InvertBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/InvertBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="660">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsSubtree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/IsSubtree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +87,8 @@
       <file leaf-file-name="InorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/InorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            <state relative-caret-position="287">
+              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -161,12 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/Algorithm/ShoppingAnser.java" />
-        <option value="$PROJECT_DIR$/src/org/Algorithm/Shopping.java" />
-        <option value="$PROJECT_DIR$/src/org/Algorithm/GetNext.java" />
-        <option value="$PROJECT_DIR$/src/org/Algorithm/isSymmetrical.java" />
-        <option value="$PROJECT_DIR$/src/org/Algorithm/Print.java" />
-        <option value="$PROJECT_DIR$/src/org/Algorithm/PrintTree.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/SerializeTree.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/KthNode.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/GetMedian.java" />
@@ -212,6 +174,12 @@
         <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/searchRange.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/SearchRange.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/BinaryTreePathSum.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MaxNode.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/BinaryTreePaths.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/IsIdentical.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/Flatten.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/InvertBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/IsSubtree.java" />
       </list>
     </option>
   </component>
@@ -331,16 +299,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\git\Algorithms\src\org\Algorithm\SwordForOffer" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.Algorithm" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.Algorithm.Chapter9Algorithm" />
       <recent name="org.Algorithm.InterviewAlgorithm" />
       <recent name="org.Algorithm" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.Algorithm" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git\Algorithms\src\org\Algorithm\SwordForOffer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,67 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreePathSum">
-    <configuration default="false" name="MediamOfTwoSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.Algorithm.Chapter9Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.Chapter9Algorithm.MediamOfTwoSortArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SingleInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.Algorithm.Chapter9Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.Chapter9Algorithm.SingleInstance" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MediamOfTwoSortArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.Algorithm.Chapter9Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.Chapter9Algorithm.MediamOfTwoSortArray2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.IsSubtree">
     <configuration default="false" name="PartitionArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -444,6 +352,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.Algorithm.Chapter9Algorithm.BinaryTreePathSum" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BinaryTreePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.Algorithm.Chapter9Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.Chapter9Algorithm.BinaryTreePaths" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IsIdentical" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.Algorithm.Chapter9Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.Chapter9Algorithm.IsIdentical" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IsSubtree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.Algorithm.Chapter9Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.Chapter9Algorithm.IsSubtree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -789,19 +757,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MediamOfTwoSortArray" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SingleInstance" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MediamOfTwoSortArray2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PartitionArray" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BinaryTreePathSum" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PartitionArray" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreePathSum" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BinaryTreePaths" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IsIdentical" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IsSubtree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreePathSum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PartitionArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MediamOfTwoSortArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MediamOfTwoSortArray2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SingleInstance" />
+        <item index="0" class="java.lang.String" itemvalue="Application.IsSubtree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IsIdentical" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BinaryTreePaths" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BinaryTreePathSum" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PartitionArray" />
       </list>
     </recent_temporary>
   </component>
@@ -826,24 +794,24 @@
       <workItem from="1494948556373" duration="43005000" />
       <workItem from="1495178335824" duration="1066000" />
       <workItem from="1495708731632" duration="41682000" />
-      <workItem from="1495897137307" duration="6103000" />
+      <workItem from="1495897137307" duration="16801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215630000" />
+    <option name="totallyTimeSpent" value="226328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1318" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265306" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17235495" sideWeight="0.49833333" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17235495" sideWeight="0.49833333" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.49785408" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16211604" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
@@ -851,7 +819,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27306867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20171674" sideWeight="0.5059423" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29835212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3850824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -899,7 +867,7 @@
           <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="80" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -908,44 +876,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/ShoppingAnser.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/GetMedian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/ShoppngAnser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/HelperClass/myTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/HelperClass/TreeLinkNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/HelperClass/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1211,22 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MediamOfTwoSortArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MediamOfTwoSortArray2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/PartitionArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1253,27 +1167,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MaxPathSum.java">
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/PrintFromTopToBottom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/lowestCommonAncestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/IsValidBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" column="78" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="78" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,38 +1187,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/InorderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/BinaryTreePathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="557">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/IsValidBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/lowestCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MaxNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MaxPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MediamOfTwoSortArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MediamOfTwoSortArray2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/Flatten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/IsIdentical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/BinaryTreePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/PreorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="341">
+          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/SwordForOffer/PrintFromTopToBottom.java">
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/InvertBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="660">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/BinaryTreePathSum.java">
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/InorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="287">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/IsSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
