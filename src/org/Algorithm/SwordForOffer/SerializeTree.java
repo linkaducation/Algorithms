@@ -8,7 +8,6 @@ import org.Algorithm.SwordForOffer.HelperClass.TreeNode;
  */
 public class SerializeTree {
 	int index = -1;
-
 	String Serialize(TreeNode root) {
 		StringBuilder sb = new StringBuilder();
 		if (root == null) {
