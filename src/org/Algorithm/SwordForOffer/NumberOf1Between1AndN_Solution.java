@@ -17,4 +17,7 @@ public class NumberOf1Between1AndN_Solution {
         int total = ns.NumberOf1Between1AndN_Solution(100);
         System.out.println(total);
     }
+
+
+
 }

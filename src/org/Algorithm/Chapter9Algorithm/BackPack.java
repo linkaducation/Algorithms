@@ -8,59 +8,35 @@ import java.util.HashMap;
  */
 public class BackPack {
 	public int backPack(int m, int[] A) {
-		boolean f[][] = new boolean[A.length + 1][m + 1];
-		for (int i = 0; i <= A.length; i++) {
-			for (int j = 0; j <= m; j++) {
+		if (A.length <= 0 || A == null || m == 0) {
+			return 0;
+		}
+		boolean[][] f = new boolean[A.length + 1][m + 1];
+		for (int i = 0; i < A.length + 1; i++) {
+			for (int j = 0; j < m + 1; j++) {
 				f[i][j] = false;
 			}
 		}
 		f[0][0] = true;
-		for (int i = 1; i <= A.length; i++) {
-			for (int j = 0; j <= m; j++) {
-				f[i][j] = f[i - 1][j];
+		for (int i = 1; i < A.length + 1; i++) {
+			for (int j = 0; j < m + 1; j++) {
+				f[i][j] = f[i -1][j];
 				if (j >= A[i - 1] && f[i - 1][j - A[i - 1]]) {
 					f[i][j] = true;
 				}
-			} // for j
-		} // for i
-		for (int i = 0; i <= A.length; i++) {
-			for (int j = 0; j <= m; j++) {
-				if (f[i][j])
-					System.out.print(1);
-				else
-					System.out.print(0);
-			} // for j
+			}
 		}
-
-		for (int i = m; i >= 0; i--) {
+		for (int i = m; i > 0; i--) {
 			if (f[A.length][i]) {
 				return i;
 			}
 		}
-
 		return 0;
 	}
 
-    static class animal{
-	    public void eat(){
-            System.out.println("动物吃饭");
-        }
-        public void sleep(){
-            System.out.println("送物睡觉");
-        }
-    }
-
-    static class dog extends animal{
-	    public void eat (){
-            System.out.println("狗狗吃饭");
-        }
-        public void wangwang(){
-            System.out.println("汪汪");
-        }
-    }
-
-    public static void main(String[] args) {
-        animal a = new dog();
-        ((dog) a).sleep();
-    }
+	public static void main(String[] args) {
+		BackPack bp = new BackPack();
+		int i = bp.backPack(11, new int[] { 7, 3, 2, 5 });
+		System.out.println(i);
+	}
 }
