@@ -2,24 +2,40 @@ package org.Algorithm.Chapter9Algorithm;
 
 import org.Algorithm.SwordForOffer.HelperClass.TreeNode;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Created by Ellen on 2017/6/16.
  * 给出n，生成所有由1...n为节点组成的不同的二叉查找树
  */
 public class GenerateTrees {
-    public List<TreeNode> generateTrees(int n) {
-        // write your code here
-        byte b1 = 1, b2 = 3, b3, b6;
-        final byte b4 = 4, b5 = 6;
-        b6 = b4 + b5;
-        System.out.println();
-        return null;
+    public ArrayList<TreeNode> generateTrees(int n) {
+        return generate(1, n);
     }
 
-    public static void main(String[] args) {
-        GenerateTrees gt = new GenerateTrees();
-        List<TreeNode> treeNodes = gt.generateTrees(0);
+    private ArrayList<TreeNode> generate(int start, int end) {
+        ArrayList<TreeNode> rst = new ArrayList<TreeNode>();
+
+        if (start > end) {
+            rst.add(null);
+            return rst;
+        }
+
+        for (int i = start; i <= end; i++) {
+            ArrayList<TreeNode> left = generate(start, i - 1);
+            ArrayList<TreeNode> right = generate(i + 1, end);
+            for (TreeNode l : left) {
+                for (TreeNode r : right) {
+// should new a root here because it need to
+// be different for each tree
+                    TreeNode root = new TreeNode(i);
+                    root.left = l;
+                    root.right = r;
+                    rst.add(root);
+                }
+            }
+        }
+        return rst;
     }
+
 }
