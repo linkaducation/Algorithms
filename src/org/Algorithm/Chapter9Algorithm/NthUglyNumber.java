@@ -1,7 +1,10 @@
 package org.Algorithm.Chapter9Algorithm;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentSkipListMap;
 
 /**
  * Created by Ellen on 2017/6/17.
@@ -28,15 +31,15 @@ public class NthUglyNumber {
                     uglys.get(p5) * 5
             ));
         }
-
+        System.out.println(Arrays.toString(uglys.toArray()));
         return uglys.get(n - 1);
-
+        ConcurrentHashMap
     }
 
 
     public static void main(String[] args) {
         NthUglyNumber nn = new NthUglyNumber();
-        int i = nn.nthUglyNumber(6);
+        int i = nn.nthUglyNumber(10);
         System.out.println(i);
     }
 }
