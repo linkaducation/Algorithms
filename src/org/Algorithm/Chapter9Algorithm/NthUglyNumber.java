@@ -1,10 +1,12 @@
 package org.Algorithm.Chapter9Algorithm;
 
+import java.io.RandomAccessFile;
+import java.nio.ByteBuffer;
+import java.nio.CharBuffer;
+import java.nio.channels.FileChannel;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentSkipListMap;
 
 /**
  * Created by Ellen on 2017/6/17.
@@ -33,13 +35,37 @@ public class NthUglyNumber {
         }
         System.out.println(Arrays.toString(uglys.toArray()));
         return uglys.get(n - 1);
-        ConcurrentHashMap
     }
 
 
     public static void main(String[] args) {
-        NthUglyNumber nn = new NthUglyNumber();
-        int i = nn.nthUglyNumber(10);
-        System.out.println(i);
+        try {
+            RandomAccessFile raf = new RandomAccessFile("H:/你好.txt","rw");
+            RandomAccessFile raf2 = new RandomAccessFile("H:/1.txt","rw");
+            FileChannel channel = raf.getChannel();
+            FileChannel channel2 = raf2.getChannel();
+
+            ByteBuffer bb = ByteBuffer.allocate(1024);
+            CharBuffer bb2 = CharBuffer.allocate(1024);
+
+            int bytesRead = channel.read(bb);
+
+            while (bytesRead != -1) {
+                System.out.println("Read " + bytesRead);
+                bb.flip();
+                bb2.put((char)bb.get());
+                while (bb.hasRemaining()) {
+                    System.out.println((char) bb.get());
+
+                }
+                bb.clear();
+                bytesRead = channel.read(bb);
+            }
+
+            raf.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
