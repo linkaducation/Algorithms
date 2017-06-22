@@ -4,46 +4,35 @@ package org.Algorithm.Chapter9Algorithm;
  * Created by Ellen on 2017/5/30. 给定一个整数数组（下标从 0 到 n-1， n 表示整个数组的规模），请找出该数组中的最长上升连续子序列。（最长上升连续子序列可以定义为从右到左或从左到右的序列。）
  */
 public class LongestIncreasingContinuousSubsequence {
-	public int longestIncreasingContinuousSubsequence(int[] A) {
-		// Write your code here
-		if (A == null || A.length <= 0) {
-			return 0;
-		}
-		if (A.length == 1) {
-			return 1;
-		}
-		int[] array = new int[A.length];
-		int[] array1 = new int[A.length];
-		array[0] = 1;
-		array1[0] = 1;
-		for (int i = 1; i < A.length; i++) {
-			if (A[i] > A[i - 1]) {
-				array[i] = array[i - 1] + 1;
-			} else {
-				array[i] = 1;
-			}
-		}
-		for (int i = 1; i < A.length; i++) {
-			if (A[i] < A[i - 1]) {
-				array1[i] = array1[i - 1] + 1;
-			} else {
-				array1[i] = 1;
-			}
-		}
-		int best = 0;
-		for (int i = 0; i < array.length; i++) {
-			best = Math.max(best, array[i]);
-		}
-		int best1 = 0;
-		for (int i = 0; i < array1.length; i++) {
-			best1 = Math.max(best1, array1[i]);
-		}
-		return Math.max(best, best1);
-	}
+    public int longestIncreasingContinuousSubsequence(int[] A) {
+        // Write your code here
+        if (A == null || A.length == 0) {
+            return 0;
+        }
+        int[] dppre = new int[A.length];
+        int[] dppost = new int[A.length];
+        dppre[0] = 1;
+        dppost[0] = 1;
+        int pre = 0, post = 0;
+        for (int i = 1; i < A.length; i++) {
+            dppre[i] = 1;
+            dppost[i] = 1;
+            if (A[i - 1] < A[i]) {
+                dppre[i] = dppre[i - 1] + 1;
+            } else {
+                dppost[i] = dppost[i - 1] + 1;
+            }
+            pre = Math.max(pre, dppre[i]);
+            post = Math.max(post, dppost[i]);
+        }
+        return Math.max(pre, post);
+    }
 
-	public static void main(String[] args) {
-		LongestIncreasingContinuousSubsequence lc = new LongestIncreasingContinuousSubsequence();
-		int i = lc.longestIncreasingContinuousSubsequence(new int[] { 5, 4, 2, 1, 3 });
-		System.out.println(i);
-	}
+    public static void main(String[] args) {
+        LongestIncreasingContinuousSubsequence lc = new LongestIncreasingContinuousSubsequence();
+        int i = lc.longestIncreasingContinuousSubsequence(new int[]{99, 55, 7, 29, 80, 33, 19, 23, 6,
+                35, 40, 27, 44, 74, 5, 17, 52, 36, 67, 32, 37, 42, 18, 77, 66, 62, 97, 79, 60, 94, 30, 2, 85,
+                22, 26, 91, 3, 16, 8, 0, 48, 93, 39, 31, 63, 13, 71, 58, 69, 50, 21, 70, 61, 43, 12, 88, 47, 45, 72, 76});
+        System.out.println(i);
+    }
 }
