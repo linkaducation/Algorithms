@@ -1,6 +1,6 @@
 package org.Algorithm.InterviewAlgorithm.NowCoder;
 
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -9,29 +9,32 @@ import java.util.Scanner;
 public class SycleWord {
 
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		while (in.hasNext()) {
-			int n = in.nextInt();
-			String[] arr = new String[n];
-			HashSet<String> set = new HashSet<>();
-			int cout = 0;
-			for (int i = 0; i < n; i++) {
-				arr[i] = in.next();
-				if (!set.contains(arr[i])) {
-					cout++;
-					for (int j = 0; j < arr[i].length() - 1; j++) {
-						char[] array = arr[i].toCharArray();
-						for (int k = 0; k < array.length; k++) {
-							StringBuilder sb = new StringBuilder();
-							for (int l = 0; l < array.length && l != k; l++) {
-
-							}
-						}
-					}
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt(); //第一行为单词个数n(1 ≤ n ≤ 50)
+		ArrayList<String> list = new ArrayList<>();
+		int count = 0;
+		for (int i = 0; i < n; i++) {
+			String s = sc.next(); //输入并存储每行的单词。此处必须调用next（）方法，不能是nextLine（）方法
+			if (!list.contains(s)) {
+				count++;
+				list.add(s);
+				for (int j = 0; j < s.length() - 1; j++) {
+					char last = s.charAt(s.length() - 1);
+					s = s.substring(0, s.length() - 1);
+					s = last + s;
+					list.add(s);
+					//以下注释是另一种方法，把可能的循环单词加入list，
+					//思路：把要测试的单词后再重复下这个单词，如：picture ，变成 picturepicture
+					//感谢得闲半生的idea
+//                    StringBuffer string = new StringBuffer();
+//                    string.append(s);
+//                    string.append(s);
+//                    String another = string.substring(j, s.length() + j);
+//                    list.add(another);
 				}
 			}
-			System.out.println(cout);
-
 		}
+		sc.close();
+		System.out.println(count);
 	}
 }
