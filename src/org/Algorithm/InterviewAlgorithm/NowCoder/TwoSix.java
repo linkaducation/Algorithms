@@ -25,5 +25,6 @@ public class TwoSix {
 			}
 			System.out.println(set.size());
 		}
+
 	}
 }
