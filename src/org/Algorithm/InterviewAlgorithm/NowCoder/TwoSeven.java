@@ -10,54 +10,36 @@ import java.util.Scanner;
 public class TwoSeven {
 
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		while (in.hasNext()) {
-			int num = in.nextInt();
-			int zero = in.nextInt();
-			int one = in.nextInt();
-			Back[] arr = new Back[num];
-			for (int i = 0; i < num; i++) {
-				arr[i] = getBack(in.next());
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNext()) {
+			int x = sc.nextInt(); //物品数
+			int n = sc.nextInt(); //0
+			int m = sc.nextInt(); //1
+			int[] zero = new int[x];
+			int[] one = new int[x];
+			String item;
+			for(int i=0;i<x;i++) {
+				item = sc.next();
+				int cnt = 0;
+				for(int j=0;j<item.length();j++) {
+					if(item.charAt(j) == '0') {
+						cnt++;
+					}
+				}
+				zero[i] = cnt;
+				one[i] = item.length()-cnt;
 			}
-			Back total = new Back(zero, one);
-			int[][][] dp = new int[arr.length + 1][arr.length + 1][2];
-			for (int i = 0; i < arr.length + 1; i++) {
-				dp[0][i][0] = total.zero;
-				dp[0][i][0] = total.one;
-			}
-			for (int i = 0; i < arr.length + 1; i++) {
-				dp[i][0][0] = total.zero;
-				dp[i][0][0] = total.one;
-			}
-			for (int i = 1; i <= arr.length; i++) {
-				for (int j = 1; j <= arr.length; j++) {
-					if ()
+			int[][] dp = new int[n+1][m+1];
+			for(int i=0;i<x;i++) {
+				for(int j=n;j>=zero[i];j--) {
+					for(int k=m;k>=one[i];k--) {
+						if(dp[j][k] < dp[j-zero[i]][k-one[i]]+1) {
+							dp[j][k] = dp[j-zero[i]][k-one[i]]+1;
+						}
+					}
 				}
 			}
+			System.out.println(dp[n][m]);
 		}
-	}
-
-	static class Back {
-		int zero;
-		int one;
-
-		Back(int zero, int one) {
-			this.zero = zero;
-			this.one = one;
-		}
-	}
-
-	private static Back getBack(String num) {
-		int zero = 0;
-		int one = 0;
-		for (int i = 0; i < num.length(); i++) {
-			if (num.charAt(i) - '0' == 0) {
-				zero++;
-			}
-			if (num.charAt(i) - '0' == 1) {
-				one++;
-			}
-		}
-		return new Back(zero, one);
 	}
 }
