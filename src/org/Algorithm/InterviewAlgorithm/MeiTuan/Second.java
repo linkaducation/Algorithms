@@ -15,25 +15,16 @@ public class Second {
 		while (in.hasNext()) {
 			int n = in.nextInt();
 			int[] arr = new int[]{1, 5, 10, 20, 50, 100};
-			boolean[][] dp = new boolean[7][n + 1];
-			Arrays.fill(dp[1], true);
-			int count = 1;
-			for (int i = 2; i <= 6; i++) {
-				for (int j = 0; j <= n; j++) {
-					dp[i][j] = dp[i - 1][j];
-					if (dp[i][j]) {
-						for (int k = 1; k * arr[i - 1] + j <= n; k++) {
-							if (arr[i - 1] * k + j <= n) {
-								dp[i][j + arr[i - 1] * k] = true;
-							}
-							if (arr[i - 1] * k + j == n) {
-								count++;
-							}
-						}
+			long[][] dp = new long[arr.length][n + 1];
+			Arrays.fill(dp[0], 1);
+			for (int i = 1; i < arr.length; i++) {
+				for (int j = 1; j <= n; j++) {
+					for (int k = 0; k * arr[i] <= j; k++) {
+						dp[i][j] = dp[i][j] + dp[i - 1][j - k * arr[i]];
 					}
 				}
 			}
-			System.out.println(count);
+			System.out.println(dp[arr.length - 1][n]);
 		}
 	}
 }
