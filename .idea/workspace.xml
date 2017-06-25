@@ -31,11 +31,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TransformImage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TransformImage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/TransformImage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="491">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="26" selection-end-column="19" />
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClearZero.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/ClearZero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckReverseEqual.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/CheckReverseEqual.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindKthToTail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/FindKthToTail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/RemoveNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Partition.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/Partition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,11 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/ChangeCard.java" />
-        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/TryCode.java" />
-        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/EatMeal.java" />
-        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MinUgly.java" />
-        <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/GetMin.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/RabotGo.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/GetCountSort.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/DoubleCore.java" />
@@ -127,6 +172,11 @@
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/Replacement.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/Zipper.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/TransformImage.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/ClearZero.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/CheckReverseEqual.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/FindKthToTail.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/RemoveNode.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/Partition.java" />
       </list>
     </option>
   </component>
@@ -405,47 +455,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TransformImage">
-    <configuration default="false" name="First (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.Algorithm.InterviewAlgorithm.netease.PanGuGame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.PanGuGame.First" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Second (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.Algorithm.InterviewAlgorithm.netease.PanGuGame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.PanGuGame.Second" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CheckReverseEqual">
     <configuration default="false" name="Same" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -494,6 +504,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.NowCoder.TransformImage" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ClearZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.Algorithm.InterviewAlgorithm.NowCoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.NowCoder.ClearZero" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckReverseEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.Algorithm.InterviewAlgorithm.NowCoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.NowCoder.CheckReverseEqual" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -894,19 +944,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.First (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Second (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Same" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Zipper" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TransformImage" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Same" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Zipper" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TransformImage" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ClearZero" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CheckReverseEqual" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TransformImage" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Zipper" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Same" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Second (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.First (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CheckReverseEqual" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ClearZero" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TransformImage" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Zipper" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Same" />
       </list>
     </recent_temporary>
   </component>
@@ -951,28 +1001,28 @@
       <workItem from="1498105500695" duration="73614000" />
       <workItem from="1498310229808" duration="12715000" />
       <workItem from="1498372864340" duration="14526000" />
-      <workItem from="1498396381413" duration="1462000" />
+      <workItem from="1498396381413" duration="7113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="496773000" />
+    <option name="totallyTimeSpent" value="502424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32437122" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.324295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31823328" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3383948" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29609543" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.49785408" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -984,7 +1034,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20171674" sideWeight="0.5059423" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3696884" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36876357" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1015,7 +1065,7 @@
           <option name="timeStamp" value="129" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="170" />
+      <option name="time" value="175" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1028,41 +1078,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/RabotGo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/ChangeCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/TryCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="30" column="63" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/EatMeal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/GetCountSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Algorithm/Chapter9Algorithm/MinUgly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
@@ -1390,7 +1405,47 @@
     <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/TransformImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="26" selection-end-column="19" />
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/ClearZero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/CheckReverseEqual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/FindKthToTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/RemoveNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/Partition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
