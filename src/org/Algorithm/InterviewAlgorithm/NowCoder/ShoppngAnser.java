@@ -1,4 +1,4 @@
-package org.Algorithm.InterviewAlgorithm;
+package org.Algorithm.InterviewAlgorithm.NowCoder;
 
 import java.util.*;
 
