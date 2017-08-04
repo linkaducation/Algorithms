@@ -16,8 +16,9 @@ public class Coins {
 		int[] coins = new int[]{1, 5, 10, 25};
 		for (int i = 1; i < 4; i++) {
 			for (int j = 0; j < n; j++) {
-				if (j >= )
+//				if (j >= )
 			}
 		}
+		return 0;
 	}
 }
