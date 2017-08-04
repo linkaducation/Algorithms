@@ -1,7 +1,5 @@
 package org.Algorithm.InterviewAlgorithm.NowCoder;
 
-import java.util.ArrayList;
-
 /**
  * Created by Ellen on 2017/8/3.
  * 在二维平面上，有两个正方形，请找出一条直线，能够将这两个正方形对半分。假定正方形的上下两条边与x轴平行。
@@ -10,14 +8,14 @@ import java.util.ArrayList;
 public class Bipartition {
 	public static double[] getBipartition(Point[] A, Point[] B) {
 		// write code here
-		if (A[1].y - B[1].y >= 0) {
-			if (A[1].x <= B[1].x) {
-				double k = (A[1].y - B[3].y) / (A[1].x - B[1].x);
-				double x = A[1].y - k * A[1].x;
-				return new double[]{k, x};
-			}
-		}
-		if (A[1].y - B[1].y >= 0 && A[1].x <= B[1].x)
+		double k, x;
+		double p1y = (A[1].y + A[0].y + A[2].y + A[3].y) / 4.0;
+		double p1x = (A[2].x + A[1].x + A[0].x + A[3].x) / 4.0;
+		double p2y = (B[1].y + B[0].y + B[3].y + B[2].y) / 4.0;
+		double p2x = (B[2].x + B[1].x + B[3].x + B[0].x) / 4.0;
+		k = (p1y - p2y) / (p1x - p2x);
+		x = p1y - k * p1x;
+		return new double[]{k, x};
 	}
 
 	public static void main(String[] args) {
