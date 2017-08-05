@@ -1,4 +1,4 @@
-package NIO.DEMO;
+package NIO;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -7,6 +7,7 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
+import java.util.Scanner;
 import java.util.Set;
 
 /**
@@ -59,6 +60,7 @@ public class TimeClientHandler implements Runnable {
 								key.channel().close();
 							}
 						}
+						e.printStackTrace();
 					}
 				}
 			} catch (IOException e) {
@@ -81,7 +83,7 @@ public class TimeClientHandler implements Runnable {
 			//判断是否连接成功
 			SocketChannel sc = (SocketChannel) key.channel();
 			if (key.isConnectable()) {
-				if (sc.isConnected()) {
+				if (sc.finishConnect()) {
 					sc.register(selector, SelectionKey.OP_READ);
 					doWrite(sc);
 				} else {
@@ -119,13 +121,16 @@ public class TimeClientHandler implements Runnable {
 	}
 
 	private void doWrite(SocketChannel socketChannel) throws IOException {
-		byte[] req = "QUERY TIME ORDER".getBytes();
-		ByteBuffer writeBuffer = ByteBuffer.allocate(1024);
-		writeBuffer.put(req);
-		writeBuffer.flip();
-		socketChannel.write(writeBuffer);
-		if (!writeBuffer.hasRemaining()) {
-			System.out.println("Send order 2 server success.");
+		Scanner in = new Scanner(System.in);
+		while (in.hasNext()) {
+			byte[] req = in.next().getBytes();
+			ByteBuffer writeBuffer = ByteBuffer.allocate(1024);
+			writeBuffer.put(req);
+			writeBuffer.flip();
+			socketChannel.write(writeBuffer);
+			if (!writeBuffer.hasRemaining()) {
+				System.out.println("Send order 2 server success.");
+			}
 		}
 	}
 }

@@ -1,9 +1,9 @@
-package NIO.DEMO;
+package NIO;
 
 /**
  * Created by Ellen on 2017/8/4.
  */
-public class TimerServer {
+public class TimeClient {
 	public static void main(String[] args) {
 		int port = 8080;
 		if (args != null && args.length > 0) {
@@ -13,8 +13,7 @@ public class TimerServer {
 				e.printStackTrace();
 			}
 		}
-		MuiltiplexerTimeServer timeServer = new MuiltiplexerTimeServer(port);
-		new Thread(timeServer, "NIO-MuiltiplexerTimeServer-001").start();
-
+		TimeClientHandler handler = new TimeClientHandler("localhost", port);
+		new Thread(handler, "TimeClient-001").start();
 	}
 }
