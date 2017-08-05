@@ -1,4 +1,4 @@
-package AIO;
+package AIO.Server;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

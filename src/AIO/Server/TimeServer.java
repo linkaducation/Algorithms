@@ -1,4 +1,4 @@
-package AIO;
+package AIO.Server;
 
 /**
  * Created by Ellen on 2017/8/5.
