@@ -12,6 +12,7 @@ public class TimeServer {
 			} catch (NumberFormatException e) {
 			}
 		}
-
+		AsyncTimeServerHander timeServerHander = new AsyncTimeServerHander(port);
+		new Thread(timeServerHander, "AIO-AsyncTimeServerHandler-001").start();
 	}
 }
