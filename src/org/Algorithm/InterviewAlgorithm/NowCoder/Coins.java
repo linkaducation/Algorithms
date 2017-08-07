@@ -7,18 +7,22 @@ package org.Algorithm.InterviewAlgorithm.NowCoder;
  */
 public class Coins {
 	//动态规划
-	public int countWays(int n) {
+	public static int countWays(int n) {
 		// write code here
-		int[][] dp = new int[4][n];
-		for (int i = 0; i < n; i++) {
-			dp[0][i] = 1;
-		}
 		int[] coins = new int[]{1, 5, 10, 25};
-		for (int i = 1; i < 4; i++) {
-			for (int j = 0; j < n; j++) {
-//				if (j >= )
+		//初始化
+		int[] dp = new int[n + 1];
+		dp[0] = 1;
+		for (int i = 0; i < 4; i++) {
+			for (int j = coins[i]; j <= n; j++) {
+				dp[j] = (dp[j] + dp[j - coins[i]]) % 1000000007;
 			}
 		}
-		return 0;
+		return dp[n];
+	}
+
+	public static void main(String[] args) {
+		int i = countWays(20);
+		System.out.println(i);
 	}
 }
