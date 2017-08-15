@@ -1,14 +1,42 @@
 package org.Algorithm.InterviewAlgorithm.netease;
 
+import java.util.Scanner;
+
 /**
  * Created by Ellen on 2017/8/15.
- * 给定一个 n 行 m 列的地牢，其中 '.' 表示可以通行的位置，'X' 表示不可通行的障碍，牛牛从 (x0 , y0 ) 位置出发，
- * 遍历这个地牢，和一般的游戏所不同的是，他每一步只能按照一些指定的步长遍历地牢，要求每一步都不可以超过地牢的边界，
- * 也不能到达障碍上。地牢的出口可能在任意某个可以通行的位置上。牛牛想知道最坏情况下，他需要多少步才可以离开这个地牢。
  */
 public class Escap {
 
     public static void main(String[] args) {
-
+        Scanner in = new Scanner(System.in);
+        while (in.hasNext()) {
+            int n = in.nextInt();
+            int[] arr = new int[n];
+            int sum = 0;
+            for (int i = 0; i < n; i++) {
+                arr[i] = in.nextInt();
+                sum += arr[i];
+            }
+            if (sum % n == 0) {
+                int avg = sum / n;
+                int count = 0, i = 0;
+                for (; i < n; i++) {
+                    if (arr[i] > avg) {
+                        int temp = arr[i] - avg;
+                        if (temp % 2 != 0) {
+                            break;
+                        }
+                        count += temp / 2;
+                    }
+                }
+                if (i < n) {
+                    System.out.println(-1);
+                } else {
+                    System.out.println(count);
+                }
+            } else {
+                System.out.println(-1);
+            }
+        }
     }
 }
