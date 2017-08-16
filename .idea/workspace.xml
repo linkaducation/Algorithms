@@ -36,81 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LuckyBag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/LuckyBag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Trap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/Trap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Palindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/Palindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EatShell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/EatShell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/StringSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/Dictionary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/Fibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FindMinNum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/FindMinNum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,14 +58,86 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/NumQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeWord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/ChangeWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GentalNum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/GentalNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JumpStep.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/JumpStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/ReverseSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxOddNum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/MaxOddNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyApples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/BuyApples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Candy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/Candy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-149">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,13 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AIO/TimeServer.java" />
-        <option value="$PROJECT_DIR$/src/AIO/Server/TimeServer.java" />
-        <option value="$PROJECT_DIR$/src/AIO/Client/TimeClient.java" />
-        <option value="$PROJECT_DIR$/src/AIO/Client/AsyncTimeClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/AIO/Server/AcceptCompletionHandler.java" />
-        <option value="$PROJECT_DIR$/src/AIO/Server/ReadCompletionHandler.java" />
-        <option value="$PROJECT_DIR$/src/AIO/Server/AsyncTimeServerHander.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/Queens.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/Box.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/Joseph.java" />
@@ -234,6 +224,13 @@
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/FindMinNum.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/RefreshCard.java" />
         <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/NumQueue.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/ChangeWord.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/GentalNum.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/JumpStep.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/ReverseSum.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/MaxOddNum.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/BuyApples.java" />
+        <option value="$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/Candy.java" />
       </list>
     </option>
   </component>
@@ -528,15 +525,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumQueue">
-    <configuration default="false" name="StringSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Candy">
+    <configuration default="false" name="JumpStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.Algorithm.InterviewAlgorithm.netease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.StringSort" />
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.JumpStep" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -549,14 +546,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ReverseSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.Algorithm.InterviewAlgorithm.netease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.Fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.ReverseSum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -569,14 +566,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="FindMinNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MaxOddNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.Algorithm.InterviewAlgorithm.netease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.FindMinNum" />
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.MaxOddNum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -589,14 +586,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="RefreshCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BuyApples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.Algorithm.InterviewAlgorithm.netease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.RefreshCard" />
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.BuyApples" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -609,14 +606,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="NumQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.Algorithm.InterviewAlgorithm.netease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.NumQueue" />
+      <option name="MAIN_CLASS_NAME" value="org.Algorithm.InterviewAlgorithm.netease.Candy" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1008,19 +1005,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StringSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Fibonacci" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FindMinNum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RefreshCard" />
-      <item index="4" class="java.lang.String" itemvalue="Application.NumQueue" />
+      <item index="0" class="java.lang.String" itemvalue="Application.JumpStep" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ReverseSum" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MaxOddNum" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BuyApples" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Candy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NumQueue" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RefreshCard" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FindMinNum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Fibonacci" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StringSort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Candy" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BuyApples" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MaxOddNum" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReverseSum" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JumpStep" />
       </list>
     </recent_temporary>
   </component>
@@ -1080,15 +1077,15 @@
       <workItem from="1502275226029" duration="1723000" />
       <workItem from="1502284286829" duration="28930000" />
       <workItem from="1502694922455" duration="14743000" />
-      <workItem from="1502755629235" duration="33528000" />
+      <workItem from="1502755629235" duration="46616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="709343000" />
+    <option name="totallyTimeSpent" value="722431000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1100,13 +1097,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31823328" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2751982" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28425822" sideWeight="0.49570817" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.49785408" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1502146" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19688842" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1218,14 +1215,8 @@
           <properties />
           <option name="timeStamp" value="285" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/NumQueue.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="295" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="296" />
+      <option name="time" value="301" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1238,63 +1229,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/FindElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/GetHeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="82" column="25" lean-forward="false" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/GetRankOfNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/AntiOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/CalcResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/FindSegment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="94" lean-forward="false" selection-start-line="42" selection-start-column="94" selection-end-line="42" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/ToString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/MaxSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/NowCoder/GetFrequency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1625,11 +1559,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/NumQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/ChangeWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/GentalNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/JumpStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/ReverseSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/BuyAplles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/MaxOddNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/BuyApples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/Algorithm/InterviewAlgorithm/netease/Candy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
