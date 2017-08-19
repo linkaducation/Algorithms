@@ -8,42 +8,34 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int mod = 1000000007;
         while (in.hasNext()) {
             int n = in.nextInt();
-            int k = in.nextInt();
-            int[][] state = new int[n + 1][k + 1];
-
-            state[0][1] = 1;
-
-            for (int i = 1; i <= n; i++) {
-                int sum = 0;
-                for (int j = 1; j <= k; j++) {
-                    sum = (sum + state[i - 1][j]) % mod;
-                }
-                for (int j = 1; j <= k; j++) {
-                    int invalid = 0;
-                    int p = 2;
-                    while (p * j <= k) {
-                        invalid = (invalid + state[i - 1][p * j]) % mod;
-                        p++;
-                    }
-                    state[i][j] = (sum - invalid + mod) % mod;
-                }
+            int[] group = new int[n];
+            for (int i = 0; i < n; i++) {
+                group[i] = in.nextInt();
             }
-
-            for (int i = 0; i <= n; i++) {
-                for (int j = 0; j <= n; j++) {
-                    System.out.print(state[i][j] + " ");
+            int[] dp = new int[n];
+            dp[0] = group[0];
+            for (int i = 1; i < n; i++) {
+                dp[i] = dp[i - 1] + group[i];
+            }
+            int q = in.nextInt();
+            int[] qi = new int[q];
+            for (int i = 0; i < q; i++) {
+                qi[i] = in.nextInt();
+            }
+            int[] res = new int[q];
+            for (int i = 0; i < q; i++) {
+                int count = 1;
+                while (qi[i] > dp[count - 1]) {
+                    count++;
                 }
-                System.out.println();
+                res[i] = count;
             }
-
-            int sum = 0;
-            for (int i = 1; i <= k; i++) {
-                sum = (sum + state[n][i]) % mod;
+            for (int i = 0; i < q; i++) {
+                System.out.println(res[i]);
             }
-            System.out.println(sum);
         }
     }
 }
+

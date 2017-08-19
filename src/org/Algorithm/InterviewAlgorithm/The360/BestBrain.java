@@ -18,9 +18,8 @@ public class BestBrain {
                 flag temp = getNode(string, a, "");
                 flag temp1 = getNode1(string, a, "");
                 if (temp != null) {
-                    if (temp1 != null && temp.pos) {
-
-                    }
+//                    if (temp1 != null && temp.pos) {
+//                    }
                 }
             }
             ArrayList<String> list = new ArrayList<>();
