@@ -1,6 +1,8 @@
 package org.Algorithm.SwordForOffer;
 
 
+import org.Algorithm.SwordForOffer.HelperClass.RandomListNode;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -13,6 +15,35 @@ import java.util.HashMap;
 public class FirstAppearingOnce {
     ArrayList<Character> list = new ArrayList<>();
     HashMap<Character,Integer> map = new HashMap<>();
+
+    public RandomListNode Clone(RandomListNode pHead) {
+
+        RandomListNode  r= null;
+
+        RandomListNode dummyNode = pHead;
+        while (dummyNode != null) {
+            r = new RandomListNode(dummyNode.lable);
+            r.next = dummyNode.next;
+            dummyNode.next = r;
+            dummyNode = r.next;
+        }
+        //复制随机节点
+        dummyNode = pHead;
+        while (dummyNode.next != null) {
+            if (dummyNode.random != null) {}
+            dummyNode.next.random = dummyNode.random.next;
+        }
+        dummyNode = dummyNode.next.next;
+    
+    dummyNode = pHead.next;
+    RandomListNode temp = new RandomListNode(0);
+    temp.next = dummyNode;
+        while (dummyNode != null && dummyNode.next != null) {
+        dummyNode.next = dummyNode.next.next;
+        dummyNode = dummyNode.next;
+    }
+        return temp.next;
+}
 
     public void Insert(char ch) {
         if (map.containsKey(ch)){
