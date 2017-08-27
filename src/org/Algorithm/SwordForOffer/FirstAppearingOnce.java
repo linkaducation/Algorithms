@@ -22,7 +22,10 @@ public class FirstAppearingOnce {
 
         RandomListNode dummyNode = pHead;
         while (dummyNode != null) {
-            r = new RandomListNode(dummyNode.lable);
+            r = new RandomListNode(dummyNode.label);
+            String s = "abc";
+            char[] chars = s.toCharArray();
+            new String(chars);
             r.next = dummyNode.next;
             dummyNode.next = r;
             dummyNode = r.next;
@@ -34,7 +37,7 @@ public class FirstAppearingOnce {
             dummyNode.next.random = dummyNode.random.next;
         }
         dummyNode = dummyNode.next.next;
-    
+
     dummyNode = pHead.next;
     RandomListNode temp = new RandomListNode(0);
     temp.next = dummyNode;

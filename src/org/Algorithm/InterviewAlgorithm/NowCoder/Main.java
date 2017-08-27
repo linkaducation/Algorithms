@@ -1,54 +1,60 @@
 package org.Algorithm.InterviewAlgorithm.NowCoder;
 
-import java.util.ArrayList;
+import org.Algorithm.HelperClass.SegmentTree;
+
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
-/**
- * Created by Ellen on 2017/8/12.
- * 5
- 1 2
- 5 3
- 4 6
- 7 5
- 9 0
- */
 public class Main {
     public static void main(String[] args) {
-        new Main().run();
-    }
-
-    //run method
-    public void run() {
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int[] para = new int[N];
-        for (int i = 0; i < N; i++) {
-            para[i] = sc.nextInt();
-        }
-        Arrays.sort(para);
-        int max = 0;
-        int tmp;
-        List<Integer> list = new ArrayList<>();
-        for (int i = N - 1; i >= 0; i--) {
-            list.add(para[i]);
-            tmp = getMax(list);
-            if (tmp > max) {
-                max = tmp;
+        Scanner in = new Scanner(System.in);
+        while (in.hasNext()) {
+            int N = in.nextInt();
+            int[] scores = new int[N];
+            int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+            for (int i = 0; i < N; i++) {
+                scores[i] = in.nextInt();
+                min = Math.min(min, scores[i]);
+                max = Math.max(max, scores[i]);
             }
+            SegmentTree head = buildTree(min, max);
+            for (int i = 0; i < N; i++) {
+                addTree(head, scores[i]);
+            }
+            int[] res = new int[N];
+            for (int i = 0; i < N; i++) {
+                res[i] = N - getVal(head, scores[i]);
+            }
+            System.out.println(Arrays.toString(res));
         }
-        System.out.println(max);
-
     }
 
-    public int getMax(List<Integer> list) {
-        int tmp = 0;
-        int sum = 0;
-        for (int i = 0; i < list.size(); i++) {
-            sum += list.get(i);
+    private static int getVal(SegmentTree head, int target) {
+        if (target == head.max) {
+            return head.val;
         }
-        return list.get(list.size() - 1) * sum;
+        return getVal(head.left, target);
     }
+
+    private static void addTree(SegmentTree head, int target) {
+        if (target == head.max) {
+            head.val += 1;
+            return;
+        }
+        head.val += 1;
+        if (target < head.max) {
+            addTree(head.left, target);
+        }
+    }
+
+    private static SegmentTree buildTree(int min, int max) {
+        if (min == max) {
+            return new SegmentTree(min, min, 0);
+        }
+        SegmentTree head = new SegmentTree(min, max, 0);
+        head.left = buildTree(min, max - 1);
+        return head;
+    }
+
 }
 
