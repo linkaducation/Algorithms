@@ -23,7 +23,7 @@ public class Main {
             }
             int[] res = new int[N];
             for (int i = 0; i < N; i++) {
-                res[i] = N - getVal(head, scores[i]);
+                res[i] = getVal(head, scores[i]);
             }
             System.out.println(Arrays.toString(res));
         }
