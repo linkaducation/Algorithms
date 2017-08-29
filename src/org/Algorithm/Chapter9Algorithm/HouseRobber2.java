@@ -5,46 +5,37 @@ package org.Algorithm.Chapter9Algorithm;
  */
 public class HouseRobber2 {
 
-    public int houseRobber2(int[] nums) {
-        // write your code here
-        if (nums == null || nums.length <= 2) {
-            return 0;
-        }
-        int len = nums.length;
-        int[] dp = new int[len];
-        dp[0] = nums[0];
-        dp[1] = nums[1];
-        dp[2] = dp[0] + nums[2];
-        boolean[] hasFirst = new boolean[len];
-        hasFirst[0] = true;
-        hasFirst[2] = true;
-        for (int i = 3; i < len; i++) {
-            if (dp[i - 2] > dp[i - 3]) {
-                dp[i] = dp[i - 2] + nums[i];
-                if (hasFirst[i - 2]) {
-                    hasFirst[i] = true;
-                }
-            } else if (dp[i - 2] > dp[i - 3]){
-                dp[i] = dp[i - 3] + nums[i];
-                if (hasFirst[i - 3]) {
-                    hasFirst[i] = true;
-                }
-            } else {
-                if (hasFirst[i - 3]) {
-                    if (!hasFirst[i - 2]) {
-                        dp[i] = dp[i - 2] + nums[i];
-                    }
-                } else {
-//                    dp[i] =
-                }
-            }
-        }
-        int max = 0;
-        if ((len & 1) == 1) {
-            max = Math.max(dp[len - 1] - nums[len - 1], dp[len - 1] - nums[0]);
-        }
-        max = Math.max(max, dp[len - 2]);
-        return max;
+    public static void main(String[] args) {
+        HouseRobber2 robber = new HouseRobber2();
+        int res = robber.houseRobber2(new int[]{1, 3, 2, 1, 5});
+        System.out.println(res);
     }
 
+    public int houseRobber2(int[] nums) {
+        // write your code here
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        if (nums.length == 1) {
+            return nums[0];
+        }
+        return Math.max(robber(nums, 0, nums.length - 2), robber(nums, 1, nums.length - 1));
+
+    }
+
+    private int robber(int[] nums, int st, int ed) {
+        int[] res = new int[2];
+        if (st == ed)
+            return nums[ed];
+        if (st + 1 == ed)
+            return Math.max(nums[st], nums[ed]);
+        res[st % 2] = nums[st];
+        res[(st + 1) % 2] = Math.max(nums[st], nums[st + 1]);
+
+        for (int i = st + 2; i <= ed; i++) {
+            res[i % 2] = Math.max(res[(i - 1) % 2], res[(i - 2) % 2] + nums[i]);
+
+        }
+        return res[ed % 2];
+    }
 }
