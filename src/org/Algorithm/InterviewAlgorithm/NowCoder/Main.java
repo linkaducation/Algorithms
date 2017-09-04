@@ -1,5 +1,6 @@
 package org.Algorithm.InterviewAlgorithm.NowCoder;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -48,5 +49,26 @@ public class Main {
             }
             System.out.println(maxLen);
         }
+    }
+
+
+    //run method
+    public void run() {
+        Scanner sc = new Scanner(System.in);
+        int groupSize = sc.nextInt();
+        int[] groups = new int[groupSize];
+        int sum = 0;
+        for (int i = 0; i < groupSize; i++) {
+            groups[i] = sc.nextInt();
+            sum += groups[i];
+        }
+        Arrays.sort(groups);
+        if (groups[groupSize - 1] > sum - groups[groupSize - 1]) {
+            System.out.println("No");
+            return;
+        } else {
+            System.out.println("Yes");
+        }
+
     }
 }

@@ -1,7 +1,5 @@
 package org.Algorithm.Chapter9Algorithm;
 
-import java.util.Arrays;
-
 /**
  * Created by Ellen on 2017/9/1.
  */
@@ -45,13 +43,13 @@ public class MaxProfit {
             }
         }
 
-        for (int i = 0; i < len; i++) {
-            System.out.println(Arrays.toString(dp[i]));
-        }
-        System.out.println();
-        for (int i = 0; i < len; i++) {
-            System.out.println(Arrays.toString(res[i]));
-        }
+//        for (int i = 0; i < len; i++) {
+//            System.out.println(Arrays.toString(dp[i]));
+//        }
+//        System.out.println();
+//        for (int i = 0; i < len; i++) {
+//            System.out.println(Arrays.toString(res[i]));
+//        }
 
         System.out.println(maxProfit);
     }

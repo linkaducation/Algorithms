@@ -1,6 +1,6 @@
 package org.Algorithm.Chapter9Algorithm;
 
-import java.util.Comparator;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by Ellen on 2017/6/11. 给定一个整数序列，找到最长上升子序列（LIS），返回LIS的长度。
@@ -31,6 +31,7 @@ public class LongestIncreasingSubsequence {
 	}
 
 	public static void main(String[] args) {
+		ConcurrentHashMap
 		LongestIncreasingSubsequence lis = new LongestIncreasingSubsequence();
 		int i = lis.longestIncreasingSubsequence(new int[] { 1, 2, 7, 4, 5, 6 });
 		System.out.println(i);
