@@ -31,9 +31,9 @@ public class LongestIncreasingSubsequence {
 	}
 
 	public static void main(String[] args) {
-		ConcurrentHashMap
 		LongestIncreasingSubsequence lis = new LongestIncreasingSubsequence();
 		int i = lis.longestIncreasingSubsequence(new int[] { 1, 2, 7, 4, 5, 6 });
 		System.out.println(i);
 	}
+
 }
