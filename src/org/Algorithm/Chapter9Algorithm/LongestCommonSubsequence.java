@@ -6,7 +6,7 @@ package org.Algorithm.Chapter9Algorithm;
 public class LongestCommonSubsequence {
 
     public static void main(String[] args) {
-        int res = longestCommonSubsequence("accdbb", "eacba");
+        int res = longestCommonSubsequence("(())()", "((()))");
         System.out.println(res);
     }
 
