@@ -24,7 +24,7 @@ public class Main {
             for (Integer integer : map.values()) {
                 max = Math.max(max, integer);
             }
-            
+
             System.out.println(max == -1 ? 0 : max);
         }
     }
